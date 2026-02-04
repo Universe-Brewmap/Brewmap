@@ -1,0 +1,35 @@
+[
+  {
+    "fee": 1600000,
+    "deposit": 20000000,
+    "key_money": 100000000,
+    "maintain": 550000,
+    "broker_fee": 1620000,
+    "cur_type": "피부미용",
+    "floor": "지상 3층",
+    "con_m2": "72㎡",
+    "net_m2": "96.28㎡"
+  },
+  {
+    "fee": 1200000,
+    "deposit": 8000000,
+    "key_money": 30000000,
+    "maintain": 200000,
+    "broker_fee": 1150000,
+    "cur_type": "일식점",
+    "floor": "지상 1층",
+    "con_m2": "27.97㎡",
+    "net_m2": "29.59㎡"
+  },
+  {
+    "fee": 4500000,
+    "deposit": 50000000,
+    "key_money": 30000000,
+    "maintain": 1000000,
+    "broker_fee": 4500000,
+    "cur_type": "",
+    "floor": "",
+    "con_m2": "",
+    "net_m2": ""
+  }
+]
