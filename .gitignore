@@ -1,8 +1,8 @@
 mylog.txt
 *.log
 
-__pycache__/
-*.py[cod]
+**/__pycache__/
+**/*.py[cod]
 .pytest_cache/
 .scrapy/
 
