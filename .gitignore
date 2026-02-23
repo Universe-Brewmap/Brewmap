@@ -1,0 +1,12 @@
+mylog.txt
+*.log
+
+**/__pycache__/
+**/*.py[cod]
+.pytest_cache/
+.scrapy/
+
+.venv/
+venv/
+.env
+*.egg-info/
