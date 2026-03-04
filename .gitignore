@@ -1,0 +1,12 @@
+<<<<<<< HEAD
+.env
+mylog.txt
+*.log
+**/__pycache__/
+**/*.py[cod]
+.pytest_cache/
+.scrapy/
+.venv/
+venv/
+*.egg-info/
+>>>>>>> 06962a024d1f2b67584cb8a7eedaf36bb92f8887
