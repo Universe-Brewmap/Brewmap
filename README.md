@@ -46,6 +46,11 @@ brewmap/
 ```
 전체 매물 → [1차] recom_score 상위 50% 필터 → [2차] success_prob 내림차순 정렬 → TOP 20
 ```
+
+<p align="center">
+  <img src="image/result.png" width="100%" />
+</p>
+
 ---
 
 ## 핵심 인사이트
