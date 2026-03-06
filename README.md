@@ -48,7 +48,7 @@ brewmap/
 ```
 
 <p align="center">
-  <img src="image/result.png" width="100%" />
+  <img src="img/result.png" width="100%" />
 </p>
 
 ---
