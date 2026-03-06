@@ -1,7 +1,7 @@
 # 바나프레소 신규 입점 입지 추천 시스템
 
 > 기존 바나프레소 매장의 입지 패턴을 분석하여 신규 창업 후보지를 추천하는 **데이터 기반 입지 분석 시스템**
-
+<br>
 **팀원:** 김단하 · 김민정 · 조승아  |  **기간:** 2026.01.19 ~ 2026.03.06
 
 ---
@@ -16,14 +16,18 @@
 
 ```
 brewmap/
-├── data/
-│   └── mj/
-│       ├── listing.csv          # 직방 크롤링 매물 데이터
-│       └── ...                  # 공공데이터 원본
-├── Rule_base_modeling.ipynb     # Rule-based 점수화 분석
-├── modeling_merged_ckd.ipynb    # Rule-based + LR 통합 최종 모델
-├── bana.csv                     # 바나프레소 매장 피처 데이터
-└── banaresso_listing_scored.csv # 최종 점수 결과
+├── crawlers/
+│   └── crawl_test/crawl_test/spiders/
+│       └── test_zigbang_csv.py              # 직방 크롤링 코드
+├── dataAnal/
+│   ├── data/
+│   │   ├── listing.csv                      # 직방 크롤링 매물 데이터
+│   │   ├── listing_scored_rule.csv          # rule-based 점수화 결과
+│   │   ├── listing_scored_ml.csv            # ML 점수화 결과
+│   │   └── ...                              # 공공데이터 전처리
+│   └── analysis/
+│       └── Rule_base_modeling_final.ipynb   # 최종 분석 코드 (rule-based + ML + LLM)
+
 ```
 
 ---
