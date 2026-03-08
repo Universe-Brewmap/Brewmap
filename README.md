@@ -27,7 +27,7 @@ brewmap/
 │   │   ├── listing_scored_ml.csv            # ML 점수화 결과
 │   │   └── ...                              # 공공데이터 전처리
 │   └── analysis/
-│       └── Rule_base_modeling_final.ipynb   # 최종 분석 코드 (rule-based + ML + LLM)
+│       └── BANA_final.ipynb   # 최종 분석 코드 (rule-based + ML + LLM)
 
 ```
 
